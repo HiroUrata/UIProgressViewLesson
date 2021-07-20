@@ -13,6 +13,7 @@
 		54D33D7B26A6B2DB004312B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D33D7926A6B2DB004312B1 /* Main.storyboard */; };
 		54D33D7D26A6B2E0004312B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D33D7C26A6B2E0004312B1 /* Assets.xcassets */; };
 		54D33D8026A6B2E0004312B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D33D7E26A6B2E0004312B1 /* LaunchScreen.storyboard */; };
+		54D33D8826A6B526004312B1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D33D8726A6B526004312B1 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54D33D7C26A6B2E0004312B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D33D7F26A6B2E0004312B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D33D8126A6B2E0004312B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D33D8726A6B526004312B1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				54D33D7326A6B2DB004312B1 /* AppDelegate.swift */,
 				54D33D7526A6B2DB004312B1 /* SceneDelegate.swift */,
+				54D33D8726A6B526004312B1 /* ProgressView.swift */,
 				54D33D7726A6B2DB004312B1 /* ViewController.swift */,
 				54D33D7926A6B2DB004312B1 /* Main.storyboard */,
 				54D33D7C26A6B2E0004312B1 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D33D7826A6B2DB004312B1 /* ViewController.swift in Sources */,
+				54D33D8826A6B526004312B1 /* ProgressView.swift in Sources */,
 				54D33D7426A6B2DB004312B1 /* AppDelegate.swift in Sources */,
 				54D33D7626A6B2DB004312B1 /* SceneDelegate.swift in Sources */,
 			);
